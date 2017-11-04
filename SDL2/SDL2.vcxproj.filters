@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{d73fbe37-18e3-43d4-836a-bd58a2c9d6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{12ab1bd0-680b-4f45-a2ed-69569ed6ed8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{dc3c947a-ad8c-4f4a-b6cc-a2d025021d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{426a710b-ff72-4a83-b783-b7359304ff9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Datatypes">
+      <UniqueIdentifier>{f392195a-4074-47b7-a3e1-287275f50039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Terrain">
+      <UniqueIdentifier>{da102827-ecbc-45fa-909f-e29cd09a98b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Terrain\Cells">
+      <UniqueIdentifier>{9fe4178a-7769-42e3-9dc3-6a6be47a1108}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SpritePack.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction.cpp">
+      <Filter>Datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>GameObjects\Terrain\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>GameObjects\Terrain\Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>GameObjects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Blocked.cpp">
+      <Filter>GameObjects\Terrain\Cells</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\..\Program Files\SDL2\SDL2-2.0.5\lib\x86\SDL2.lib" />
+    <Library Include="..\..\..\..\..\..\..\Program Files\SDL2\SDL2-2.0.5\lib\x86\SDL2main.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gobject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritePack.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationType.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>GameObjects\Terrain\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>GameObjects\Terrain\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>GameObjects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Blocked.h">
+      <Filter>GameObjects\Terrain\Cells</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\Tank.png">
+      <Filter>Sprites</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SDL2.rc" />
+  </ItemGroup>
+</Project>
